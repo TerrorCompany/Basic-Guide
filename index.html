@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Terror_Company</title>
+  <script src="index.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="nav-bar-items">
+        <li><a href="#warm-up">Warm up</a></li>
+        <li><a href="#">Binds</a></li>
+        <li><a href="#">Videos</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div>
+    <h1>Introduccion</h1>
+    <p>La finalidad de esto es lograr que los nuevos miembros se autocapaciten con lo basico, en MTA, para experimentar
+      una
+      mayor comodidad a la hora de guerra.</p>
+    <p>A lo largo de esta introduccion se podran encontrar cosas como binds, videos, imagenes demostrativas y
+      recomendaciones de nuestros jugadores mas expermientados.
+      Pero recorda que el teclado y mouse son solo tuyos y nadie mas los puede controlar!!
+    </p>
+
+  </div>
+  <article class="article">
+    <section id="warm-up">
+      <h1>Warm up</h1>
+      <p>El primer paso es configurar el entorno a jugar en el servidor CIT.
+        Esta accion se realiza por medio de la utilizacion del comando "/settings".
+        <span>(ACLARACION: todos los comandos que señalamos en este blog son ejecutados por medio de la tecla T)</span>
+      </p>
+      <div class="img-container">
+        <img id="menu-setting" src="/assets/images/menu-setting.png" alt="menu-setting">
+      </div>
+      <p>Luego de abrir este panel, lo que vamos a necesitar es el buscador de configuraciones (en ingles "Search
+        setting").
+        En nuestro caso la primer configuracion a activar es el HUD, el cual nos abre la puerta para bindear armas,
+        por
+        ejemplo.</p>
+      <p>Para esto debemos ingresar en el buscador "hud", luego aparecera la opcion "Activar nuevo HUD" (Enable new
+        HUD en
+        la imagen debajo).
+        Esta opcion debe estar en "YES"</p>
+      <div class="img-container">
+        <img id="activate-hud" src="/assets/images/Activar Hud.png" alt="activate-hud">
+      </div>
+      <p>Como resultado deberian tener este nuevo HUD en la esquina superior de la pantalla</p>
+      <div class="img-container">
+        <img id="new-hud" src="/assets/images/new-hud.png" alt="new-hud">
+      </div>
+      <p>Otra opcion muy util a la hora de tener guerras de bandas (TURF) es diferenciar aliados/compañeros de enemigos.
+        Esto se realiza por medio, nuevamente, del panel settings e ingresando en el buscador "nametag". Luego aparece
+        la
+        opcion que se ve en pantalla y deben asignarle el valor "0 255 0" (respetando los espacios) como esta en la foto
+        de abajo
+      </p>
+      <div class="img-container">
+        <img id="activate-nametag" src="/assets/images/Activar-nametag.png" alt="activate-nametag">
+      </div>
+    </section>
+    <section>
+      <h1>Binds</h1>
+      <p>La siguiente seccion enseña el bindeo de armas, es decir, usar numeros en vez de E/Q o rueda del mouse.
+        Esto nos da ventaja a la hora de cambiar armas de manera efectiva y certera, ademas de otras ventajas avanzadas.
+      </p>
+      <p>Primero, hay que asegurarse que los bind de armas estan activados, buscando "Activar arma" o , en mi caso,
+        "bind"
+        como se ve en la siguiente imagen. Luego poner la opcion en "YES"</p>
+      <div class="img-container" id="bind-armas">
+        <img src="/assets/images/bind-armas.png" alt="bind-arma">
+      </div>
+      <p>Segundo, borramos la busqueda realizada e ingresamos "slot:". Al hacer esto aparecera una lista de slot los
+        cuales apuntan a X arma como se ve en la siguiente imagen</p>
+      Aqui tienes que setear los valores, del 1 al 9, en los slot que ves. De esta manera podras utilizar las armas con
+      el
+      numero asignado;
+      Un ejemplo seria: "slot: escopeta; value 2" y asi tendrias la escopeta en el numero 2.
+      Un ejemplo es la <a href="#new-hud">imagen</a> anterior donde pueden ver como esta configurado en mi caso
+      <div class="img-container" id="bind-armas2">
+        <img src="/assets/images/bind-armas2.png" alt="bind-arma2">
+      </div>
+    </section>
+  </article>
+  <div id="modal"></div>
+</body>
+
+
+</html>
