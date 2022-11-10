@@ -6,15 +6,10 @@ let imageBindGuns = document.getElementById("bind-armas")
 let imageBindGuns2 = document.getElementById("bind-armas2")
 let modal = document.getElementById("modal");
 const resizeImage = ({ target }) => {
-  // const modalDiv = document.createElement("div");
   const imageElement = document.createElement("img");
-  console.log(target);
   imageElement.src = target.currentSrc;
-  console.log(imageElement);
   modal.style.display = "flex";
   modal.appendChild(imageElement);
-  // document.body.appendChild(modal)
-  // document.body.outerHTML = modalDiv
 }
 const closeImg = () => {
   const imageNode = modal.querySelector("img")
