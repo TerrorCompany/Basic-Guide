@@ -78,7 +78,7 @@ p {
 }
 
 #modal img {
-  background-color: white;
+  height: 80%;
   width: 90%;
   object-fit: contain;
 }
