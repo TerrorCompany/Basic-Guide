@@ -74,10 +74,16 @@ p {
   overflow: none;
   background: rgba(17, 17, 17, 0.89);
   /* Enable scroll if needed */
+  overflow: auto;
 }
 
 #modal img {
   background-color: white;
-  height: 80%;
+  width: 100%;
+  object-fit: contain;
+}
 
+span {
+  color: rgb(205, 39, 39);
+  font-weight: bold;
 }
